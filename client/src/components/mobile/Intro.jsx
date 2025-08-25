@@ -7,11 +7,11 @@ import x from "../../../public/images/x.svg";
 function Intro(){
     return (
         <>
-            <p class="title">Aditya Batgeri</p>
-            <p class="heading">Full Stack Developer</p>
-            <p class="desc">I Design, Build and Manage Scalable Web Applications from Frontend to Backend.</p>
+            <p className="title">Aditya Batgeri</p>
+            <p className="heading">Full Stack Developer</p>
+            <p className="desc">I Design, Build and Manage Scalable Web Applications from Frontend to Backend.</p>
 
-            <div class="socials">
+            <div className="socials">
                 <a href="https://github.com/Aditya-0712" target="_blank"><img src={github} alt="github" /></a>
                 <a href="https://www.linkedin.com/in/aditya-batgeri-00675122b/" target="_blank"><img src={linkedin} alt="linkedin" /></a>
                 <a href="https://codepen.io/Aditya-0712" target="_blank"><img src={codepen} alt="codepen" /></a>
@@ -19,7 +19,7 @@ function Intro(){
                 <a href=""><img src={x} alt="x" /></a>
             </div>
 
-            <a href="./public/resume/aditya_overleaf_3.pdf" download class="resume">
+            <a href="../../../public/resume/aditya_overleaf_4.pdf" download className="resume">
                 Get Resume
             </a>
         </>
