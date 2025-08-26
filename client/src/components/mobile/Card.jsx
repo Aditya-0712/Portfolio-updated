@@ -1,6 +1,4 @@
-import link from "../../../public/images/link.svg";
-
-function Card({isProject, date, title, details, tags}){
+function Card({isProject, date, title, details, tags, thumbnail, site}){
 
     const renderTags = tags.map((x, ind) =>{
         return (<p key={ind}>{x}</p>);
@@ -18,9 +16,9 @@ function Card({isProject, date, title, details, tags}){
                 {isProject && 
                     <>
                         <img src={thumbnail} alt="pic" />
-                        <a className="view" href="https://github.com/Aditya-0712/Interactive-Card-Details-Form" target="_blank">
+                        <a className="view" href={site} target="_blank">
                             <p>View Project</p>
-                            <img src={link} alt="github" />
+                            <img src="./images/link.svg" alt="github" />
                         </a>
                     </>
                 }

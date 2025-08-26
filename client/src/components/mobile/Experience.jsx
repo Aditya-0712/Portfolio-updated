@@ -1,6 +1,6 @@
 import Card from "./Card";
 
-function Experience() {
+function Experience({isPc}) {
     const content={
         date: "2024 JANUARY - MARCH",
         title: "Intern at Next24 Technologies", 
@@ -10,7 +10,7 @@ function Experience() {
 
     return (
         <>
-            <p className="about" id="experience">EXPERIENCE</p>
+            {!isPc && <p className="about" id="experience">EXPERIENCE</p>}
             <Card isProject={false} date={content.date} title={content.title} details={content.details} tags={content.tags} />
         </>
     );
