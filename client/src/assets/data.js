@@ -1,4 +1,4 @@
-const projects = [
+export const projects = [
     {
         isProject: true, 
         date: "2024 - PRESENT",
@@ -73,4 +73,19 @@ const projects = [
     }
 ]
 
-export default projects;
+export const experience = [
+    {
+        isProject: false, 
+        date: "2024 AUGUST - 2025 FEBRUARY",
+        title: "Full Stack Intern at Sasefied", 
+        details: "During my internship at Sasefied, I worked as a Full Stack Software Developer and later took on the role of Tech Backend Lead for the Reybot project, a platform designed to streamline communication for healthcare providers and businesses via WhatsApp integration. My responsibilities included building APIs, webhooks, and real-time chat systems using Node.js, Express.js, MongoDB, and Socket.io. I integrated the Meta WhatsApp API and Twilio for automated and broadcast messaging, designed scalable schemas for users, contacts, conversations, and messages, and implemented NLP-based auto-reply features. I also led backend development tasks, coordinated with the team in an Agile environment, and contributed to designing the subscription and pay-per-use models for the platform.",
+        tags: ["React.js", "Node.js", "JWT", "MongoDB", "Meta API", "HTML & CSS", "Javascript"]
+    },
+    {
+        isProject: false, 
+        date: "2024 JANUARY - MARCH",
+        title: "Intern at Next24 Technologies", 
+        details: "I was thrilled to be selected as a Web Development intern at Next24 Technologies, a dynamic startup based in Noida. This opportunity came through the government internship portal AICTE and spanned two months in an online format. Each week, I received various tasks that I needed to complete before their respective deadlines and present during our weekly meetings. My responsibilities ranged from creating Figma designs and implementing frontend features to handling backend operations like authentication, validation, and session management. Additionally, I worked on developing parody websites and continually expanded my knowledge by learning new concepts.",
+        tags: ["HTML", "CSS", "Javascript", "NodeJS", "EJS", "Express.js", "Mongodb"]
+    },
+]

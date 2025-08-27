@@ -2,8 +2,8 @@ function Intro(){
     return (
         <>
             <p className="title">Aditya Batgeri</p>
-            <p className="heading">Full Stack Developer</p>
-            <p className="desc">I Design, Build and Manage Scalable Web Applications from Frontend to Backend.</p>
+            <p className="heading">Software Engineer</p>
+            <p className="desc">I Design, Build and Manage Scalable Software Applications from Frontend to Backend.</p>
 
             <div className="socials">
                 <a href="https://github.com/Aditya-0712" target="_blank"><img src="./images/github.svg" alt="github" /></a>

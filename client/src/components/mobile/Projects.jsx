@@ -1,8 +1,8 @@
 import Card from "./Card";
-import data from "../../assets/data.js";
+import {projects} from "../../assets/data.js";
 
 function Projects({isPc}){
-    const renderProjects = data.map((x, ind) =>{
+    const renderProjects = projects.map((x, ind) =>{
         return (<Card key={ind} isProject={x.isProject} date={x.date} title={x.title} details={x.details} tags={x.tags} thumbnail={x.thumbnail} site={x.site} />);
     })
 

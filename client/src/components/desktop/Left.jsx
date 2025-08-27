@@ -2,8 +2,8 @@ function Left(){
     return (
         <div className="left">
              <p className="pc_title">Aditya Batgeri</p>
-                <p className="pc_heading">Full Stack Developer</p>
-                <p className="pc_desc">I Design, Build and Manage Scalable Web Applications from Frontend to Backend.</p>
+                <p className="pc_heading">Sofware Engineer</p>
+                <p className="pc_desc">I Design, Build and Manage Scalable Software Applications from Frontend to Backend.</p>
 
                 <a href="./public/resume/aditya_overleaf_4.pdf" download className="resume">
                     Get Resume
