@@ -1,5 +1,30 @@
 export const projects = [
     {
+        isProject: true,
+        date: "2024 - 2025",
+        title: "Reybot",
+        details: "Reybot is a communication platform that helps clinics, hospitals, and businesses connect with their customers through WhatsApp integration. It allows organizations to broadcast messages, manage appointments, schedules, and reports, and even set up AI-powered auto-replies using NLP for FAQs and customer queries. Reybot supports both subscription and pay-per-use models, with charges varying based on the type of message (marketing, authorization, utility, or service). Built with Meta API integration, real-time chat systems, and scalable database design, Reybot simplifies customer engagement while reducing operational bottlenecks.",
+        tags: ["React.js", "Node.js", "JWT", "MongoDB", "Meta API", "Socket.io", "Express.js", "NLP", "HTML & CSS", "Javascript"],
+        thumbnail: "../../../images/reybot.png",
+        site: "http://reybot.co.uk/"
+    },
+    {
+        isProject: true,
+        date: "2025 - PRESENT",
+        title: "JourneyHive",
+        details: "JourneyHive is a travel management platform designed to simplify trip planning and tracking. It enables users to book and manage their journeys while storing detailed ticket information in a structured database. The platform uses PostgreSQL for data management and integrates features like interactive maps to visualize routes. Built with a React frontend deployed on Vercel and a Java backend hosted on AWS with AWS RDS for the database, JourneyHive ensures a reliable and scalable travel experience.",
+        tags: ["React.js", "Java", "Spring Boot", "PostgreSQL", "AWS", "Docker", "JWT", "OAuth2.0"],
+        thumbnail: "../../../images/journeyhive2.jpg",
+        site: "https://github.com/Aditya-0712/JourneyHive"
+    },
+    {
+        isProject: false,
+        date: "2025",
+        title: "Research Paper on GNSS and PNT",
+        details: "I authored a research paper on the Global Navigation Satellite System (GNSS), focusing on its applications, challenges, and advancements in positioning, navigation, and timing (PNT) technologies. The paper explored how GNSS enhances sectors like transportation, defense, and communication, while addressing issues such as signal interference, multipath errors, and cybersecurity threats. It also highlighted the integration of GNSS with AI and sensor-based technologies to improve accuracy and reliability. This work was recognized and selected for presentation at the International Astronautical Congress (IAC) 2025 in Sydney, Australia, showcasing its global relevance in the field of space and navigation systems.",
+        tags: ["Research", "GNSS", "PNT", "AI", "Cybersecurity"],
+    },
+    {
         isProject: true, 
         date: "2024 - PRESENT",
         title: "Interactive Card Details Form", 
