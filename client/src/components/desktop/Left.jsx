@@ -5,7 +5,7 @@ function Left(){
                 <p className="pc_heading">Sofware Engineer</p>
                 <p className="pc_desc">I Design, Build and Manage Scalable Software Applications from Frontend to Backend.</p>
 
-                <a href="./public/resume/aditya_overleaf_5.pdf" download className="resume">
+                <a href="./public/resume/aditya_overleaf_6.pdf" download className="resume">
                     Get Resume
                 </a>
 
