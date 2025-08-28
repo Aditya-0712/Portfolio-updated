@@ -13,7 +13,7 @@ function Intro(){
                 <a href=""><img src="./images/x.svg" alt="x" /></a>
             </div>
 
-            <a href="../../../public/resume/aditya_overleaf_4.pdf" download className="resume">
+            <a href="../../../public/resume/aditya_overleaf_5.pdf" download className="resume">
                 Get Resume
             </a>
         </>
