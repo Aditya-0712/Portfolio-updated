@@ -6,12 +6,14 @@ import Experience from "./components/mobile/Experience";
 import Projects from "./components/mobile/Projects";
 import Left from "./components/desktop/Left";
 import Right from "./components/desktop/Right";
+import Topbar from "./components/mobile/Topbar";
 
 function App(){
 
     return (
         <>
             <div className="mobile">
+                <Topbar />
                 <Intro />
                 <About isPc={false} />
                 <Experience isPc={false} />
