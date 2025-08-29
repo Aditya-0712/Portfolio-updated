@@ -1,7 +1,15 @@
+import { useState } from "react";
+
 function Left(){
+    const [section, setSection] = useState({
+        about: true,
+        experience: false,
+        projects: false
+    });
+    
     return (
         <div className="left">
-             <p className="pc_title">Aditya Batgeri</p>
+            <p className="pc_title">Aditya Batgeri</p>
                 <p className="pc_heading">Sofware Engineer</p>
                 <p className="pc_desc">I Design, Build and Manage Scalable Software Applications from Frontend to Backend.</p>
 
@@ -10,9 +18,18 @@ function Left(){
                 </a>
 
                 <div className="section">
-                    <div className="tmp"><span></span><p>ABOUT</p></div>
-                    <div className="tmp"><span></span><p>EXPERIENCE</p></div>
-                    <div className="tmp"><span></span><p>PROJECTS</p></div>
+                    <div className="tmp" onClick={()=>{setSection({about:true, experience:false, projects:false})}}>
+                        <span style={{backgroundColor:section.about?"white":"", width:section.about?"5vw":""}}></span>
+                        <p style={{color:section.about?"white":""}}>ABOUT</p>
+                    </div>
+                    <div className="tmp" onClick={()=>{setSection({about:false, experience:true, projects:false})}}>
+                        <span style={{backgroundColor:section.experience?"white":"", width:section.experience?"5vw":""}}></span>
+                        <p style={{color:section.experience?"white":""}}>EXPERIENCE</p>
+                    </div>
+                    <div className="tmp" onClick={()=>{setSection({about:false, experience:false, projects:true}); scrollToProjects()}}>
+                        <span style={{backgroundColor:section.projects?"white":"", width:section.projects?"5vw":""}}></span>
+                        <p style={{color:section.projects?"white":""}}>PROJECTS</p>
+                    </div>
                 </div>
 
                 <div className="socials">
